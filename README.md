@@ -30,7 +30,7 @@ X= np(un(cai),nn(xe)).
 2 ?- np(X, [cuon,xe],[]).
 false
 
-3 ?- 
+ 
 =====================================================================
 
 ##Discuss 2:
@@ -53,6 +53,7 @@ in(in(o), pre) --> [o].
 nn(nn(thu_vien),pre,place) --> [thu_vien].
 
 =>
+
 1 ?- s(X,[ho,thich,doc,sach,o,thu_vien],[]).
 X = s(np(prp(ho)), vp(rb(thich), vb(doc), np(nn(sach), pp(in(o), np(nn(thu_vien), pre))))) .
 
